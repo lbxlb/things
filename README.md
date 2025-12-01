@@ -7,9 +7,6 @@
 ### 演示视频
 
 - **食指指向功能演示**：
-![ezgif-7dec2645d82e4788](https://github.com/user-attachments/assets/97475b38-4876-409b-b52d-ce0e535c520b)
-![ezgif-40d1cc7854d18dd9](https://github.com/user-attachments/assets/3510e8f7-bf61-466b-9bae-2a55a86406e0)
-![ezgif-59ef5d64b961194d](https://github.com/user-attachments/assets/8baece71-eefd-40f8-8197-a92a7c6f9d02)
 ![ezgif-72b271013158aed5](https://github.com/user-attachments/assets/937c5994-4cfe-42ae-8f77-2eb0ebb1b41a)
 ## 主要特点
 
@@ -138,18 +135,17 @@ mujoco_ros_demo/
    - 功能：采集外部传感器或设备数据（如手势追踪原始数据）
    - 发布主题：/raw_sensor_data (自定义消息类型)
    - 支持：MediaPipe原始数据、外部传感器输入等
-  https://private-user-images.githubusercontent.com/221759988/520565639-37335f58-c5ab-4c9b-bf97-5170048ad876.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQ1NTcyMTAsIm5iZiI6MTc2NDU1NjkxMCwicGF0aCI6Ii8yMjE3NTk5ODgvNTIwNTY1NjM5LTM3MzM1ZjU4LWM1YWItNGM5Yi1iZjk3LTUxNzAwNDhhZDg3Ni5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIwMVQwMjQxNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00OTgyN2JhM2VhNzFmNDU5ZjU2NmNlMjJlMmQyOTRlNDdkNWU0MTdhMDNhYmY5NzY4NzI2ZGQ3ZWJjMTI4YjAwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.iwmcjAkPALNzQhmY2vixuWwmWRe8q0asfYlubUT_N8s
-
+![ezgif-59ef5d64b961194d](https://github.com/user-attachments/assets/8baece71-eefd-40f8-8197-a92a7c6f9d02)
 4. **PerceptionNode** (perception_node.py)
    - 功能：处理感知数据，实现手势识别与解析
    - 订阅主题：/raw_sensor_data
    - 发布主题：/processed_gesture (包含解析后的手势指令)
-   https://private-user-images.githubusercontent.com/221759988/520565432-f9531013-69ab-4390-a813-6b5b41efb2b8.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQ1NTcyMTAsIm5iZiI6MTc2NDU1NjkxMCwicGF0aCI6Ii8yMjE3NTk5ODgvNTIwNTY1NDMyLWY5NTMxMDEzLTY5YWItNDM5MC1hODEzLTZiNWI0MWVmYjJiOC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIwMVQwMjQxNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iMWNjYTJhMGM3MTI4OThlN2ZhZDkwODdlYzgyZjNkMzZhNzkxZTZjYTIxMThmYTAxMmRlNjZjYmE0NjM5MTE2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.-kLLO3dyn_OYY9SlhuzpozhBDPsOcN7HCy2n9Vi4vSI
+![ezgif-40d1cc7854d18dd9](https://github.com/user-attachments/assets/3510e8f7-bf61-466b-9bae-2a55a86406e0)
 
 6. **Main** (main.launch.py)
   - 功能：启动ROS 2系统并连接各个节点
   - 启动节点：MujocoPublisher、DataSubscriber
- https://private-user-images.githubusercontent.com/221759988/520565415-a65f8e8d-8982-42aa-9b6e-b6ce3aa2b6e8.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQ1NTcyMTAsIm5iZiI6MTc2NDU1NjkxMCwicGF0aCI6Ii8yMjE3NTk5ODgvNTIwNTY1NDE1LWE2NWY4ZThkLTg5ODItNDJhYS05YjZlLWI2Y2UzYWEyYjZlOC5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMjAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTIwMVQwMjQxNTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYzU5MmZhYWVkOGQ3M2NmYTlkM2ZlZGZkMTAxODQzYmJjYzg3NTFhYzIyZGE1YzNhN2U3M2FlM2VlZDBmYWViJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wOccilKfinbve_Ccetqc_Dr0Cm7_9OKayDimzto0FOc
+![ezgif-7dec2645d82e4788](https://github.com/user-attachments/assets/97475b38-4876-409b-b52d-ce0e535c520b)
 
 
 
