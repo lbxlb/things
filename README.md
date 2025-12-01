@@ -7,7 +7,7 @@
 ### 演示视频
 
 - **食指指向功能演示**：
-https://github.com/lbxlb/things/blob/main/ezgif-40d1cc7854d18dd9.gif?raw=true
+https://github.com/lbxlb/things/raw/main/ezgif-40d1cc7854d18dd9.gif
 
 ## 主要特点
 
