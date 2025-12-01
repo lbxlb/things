@@ -7,8 +7,10 @@
 ### 演示视频
 
 - **食指指向功能演示**：
-![ezgif-40d1cc7854d18dd9](https://github.com/user-attachments/assets/91ce4575-04aa-4108-83f6-e1410a996893)
-
+![ezgif-7dec2645d82e4788](https://github.com/user-attachments/assets/97475b38-4876-409b-b52d-ce0e535c520b)
+![ezgif-40d1cc7854d18dd9](https://github.com/user-attachments/assets/3510e8f7-bf61-466b-9bae-2a55a86406e0)
+![ezgif-59ef5d64b961194d](https://github.com/user-attachments/assets/8baece71-eefd-40f8-8197-a92a7c6f9d02)
+![ezgif-72b271013158aed5](https://github.com/user-attachments/assets/937c5994-4cfe-42ae-8f77-2eb0ebb1b41a)
 ## 主要特点
 
 - **高精度骨骼模型**：包含上肢完整骨骼结构，细化手部掌骨、指骨（近节/中节/远节）的几何与物理参数
