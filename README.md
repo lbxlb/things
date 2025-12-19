@@ -6,7 +6,8 @@
 
 ### 演示视频
 
-- **食指指向功能演示**：
+- **食指指向功能演示**：![ezgif-283f8d513dd75e78](https://github.com/user-attachments/assets/6edd413e-8566-4b36-a8c0-fd6650ceee10)
+
 ![ezgif-72b271013158aed5](https://github.com/user-attachments/assets/937c5994-4cfe-42ae-8f77-2eb0ebb1b41a)
 ## 主要特点
 
